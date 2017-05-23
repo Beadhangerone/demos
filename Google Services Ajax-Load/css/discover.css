@@ -1,0 +1,8 @@
+#error-block{
+  display: none;
+  background: #ff6666;
+  border: 1px solid #ff3333;
+  padding: 0px 5px;
+  position: relative;
+  z-index: -1;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<title>Discover Your World</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/discover.css">
+<body>
+
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+    <div class="w3-display-topleft w3-padding-large w3-xlarge">
+      <a href="discover.html"><i class="fa fa-globe" aria-hidden="true"></i> Discover</a>
+    </div>
+    <div class="w3-display-topright w3-padding-large w3-xlarge">
+      <a href="history.html"><i class="fa fa-book" aria-hidden="true"></i> History</a>
+    </div>
+    <div id='main' class="w3-display-middle">
+      <h1 class="w3-jumbo w3-animate-top">Discover Your World</h1>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+      <!-- <p class="w3-large w3-center">35 days left</p> -->
+      <div class="w3-large w3-center">
+        <br>
+        <form method="post" class="w3-container w3-border-0">
+          <div style="height: 29px;">
+            <div class="w3-right" id="error-block">
+              <i class="fa fa-exclamation-triangle"></i> Sorry, no results. Check yourself!
+            </div>
+          </div>
+          <input id="search-field" autofocus class="w3-input" type="text" name="name" placeholder="Enter a city">
+        </form>
+      </div>
+      <div id="results"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src='js/discover.js'></script>
+</body>
+</html>
